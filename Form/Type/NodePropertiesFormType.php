@@ -22,7 +22,7 @@ class NodePropertiesFormType extends AbstractNodePropertiesFormType
     /**
      * @return string
      */
-    public function getTemplate()
+    public static function getTemplate()
     {
         return '@WidgetModule/node_properties_form.html.twig';
     }
